@@ -30,12 +30,12 @@ namespace BirthList
             services.AddControllers();
             services.AddCors(options =>
             {
-                options.AddPolicy(name: "MyAllowSpecificOrigins",
-                                  builder =>
-                                  {
-                                      builder.WithOrigins("http://localhost:3000",
-                                                          "https://nico57000.github.io/ListedeNaissance/");
-                                  });
+                //options.AddPolicy(name: "MyAllowSpecificOrigins",
+                //                  builder =>
+                //                  {
+                //                      builder.WithOrigins("http://localhost:3000",
+                //                                          "https://nico57000.github.io/ListedeNaissance/");
+                //                  });
             });
             services.AddSwaggerGen(c =>
             {
@@ -57,7 +57,7 @@ namespace BirthList
 
             app.UseRouting();
 
-            app.UseCors("MyAllowSpecificOrigins");
+            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseAuthorization();
 
