@@ -28,6 +28,15 @@ namespace BirthList
         {
 
             services.AddControllers();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(name: "MyAllowSpecificOrigins",
+                                  builder =>
+                                  {
+                                      builder.WithOrigins("http://localhost:3000",
+                                                          "https://nico57000.github.io/ListedeNaissance/");
+                                  });
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "BirthList", Version = "v1" });
@@ -47,6 +56,8 @@ namespace BirthList
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("MyAllowSpecificOrigins");
 
             app.UseAuthorization();
 
