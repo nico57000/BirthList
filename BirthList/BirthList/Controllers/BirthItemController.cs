@@ -50,7 +50,6 @@ namespace BirthList.Controllers
 
 
             var toupdate = birthItems.Find(x=> x.Id == id);
-            toupdate.Name = birthItem.Name;
             toupdate.isAvaillable = birthItem.isAvaillable;
 
 

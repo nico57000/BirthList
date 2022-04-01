@@ -3,11 +3,11 @@
     "Id": 1,
     "Name": "Topponcino",
     "LinkTo": "https://www.etsy.com/fr/listing/808414372?fbclid=IwAR1EV72xb5i9LL8gr0pGooi7MhbrNWxUm9zy7nDZ0573A1Zj01eCYpWHZLU'",
-    "FilePath": "./images/topponcino.jpg",
+    "FilePath": "images/topponcino.jpg",
     "isAvaillable": true
   },
   {
-    "FilePath": "./images/kit.jpg",
+    "FilePath": "images/kit.jpg",
     "Id": 2,
     "isAvaillable": true,
     "LinkTo": "https://manamani.com/produit/kit-bebe/?wpam_id=11&fbclid=IwAR0RanHOwjaBJ24x4F59brU-f3c3eOU1gOA3eZVSWlCWCldKaOCWLLHXRM8",
@@ -17,14 +17,14 @@
     "Id": 3,
     "Name": "Lit Parapluie",
     "LinkTo": "https://www.bebe9.com/lit-parapluie-easy-2.html",
-    "FilePath": "./images/lit.jpg",
+    "FilePath": "images/lit.jpg",
     "isAvaillable": true
   },
   {
     "Id": 4,
     "Name": "Tapis d\u0027\u00E9veil",
     "LinkTo": "fr.shop-orchestra.com/fr/tapis-d%26%2339eveil-multipoches-a-details-en-relief-PEVFW1.html",
-    "FilePath": "./images/tapis.jpg",
+    "FilePath": "images/tapis.jpg",
     "https": null,
     "isAvaillable": true
   },
@@ -32,7 +32,7 @@
     "Id": 5,
     "Name": "Babyphone",
     "LinkTo": "https://www.bebe9.com/babyphone-simply-care-2-adaptateurs-inclus.html",
-    "FilePath": "./images/babyphone.jpg",
+    "FilePath": "images/babyphone.jpg",
     "isAvaillable": true
   }
 ]
