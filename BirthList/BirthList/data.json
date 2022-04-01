@@ -34,5 +34,12 @@
     "LinkTo": "https://www.bebe9.com/babyphone-simply-care-2-adaptateurs-inclus.html",
     "FilePath": "images/babyphone.jpg",
     "isAvaillable": true
+  },
+  {
+    "Id": 6,
+    "Name": "Doudou",
+    "LinkTo": "https://www.etsy.com/fr/listing/744023316/doudou-raie?click_key=cdda6d627d2ae24baeb605a8282076141dfb2dcc%3A744023316&click_sum=386a0394&ga_order=most_relevant&ga_search_type=all&ga_view_type=gallery&ga_search_query=doudou+raie&ref=sr_gallery-1-1&organic_search_click=1",
+    "FilePath": "images/raie.jpg",
+    "isAvaillable": true
   }
 ]
